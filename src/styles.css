@@ -58,3 +58,39 @@ body {
     font-size: 15px;
 }
 
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 50px;
+}
+
+.weather h2 {
+    font-size: 20px;
+}
+
+.weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 20px;
+    margin-top: -6px;
+}
